@@ -1,0 +1,24 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan 1, 2024, 4:57:34 PM
+    Author     : H M NUR FATTAH
+*/
+
+.card{
+    -fx-background-color: #fff;
+    -fx-background-radius: 5px;
+}
+.shadow{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 5,0,0,0);
+}
+.btn{
+    -fx-background-color: linear-gradient(to bottom right, #098c53, #246861); 
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+}
+.btn:hover{
+    -fx-background-color: linear-gradient(to bottom right, #0fb565, #399a8f); 
+}
